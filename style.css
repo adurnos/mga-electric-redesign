@@ -182,6 +182,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .reviews { background: var(--navy-soft); overflow: hidden; }
 .reviews-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 42px; }
 .reviews-summary { margin: 16px 0 0; color: var(--grey); font-size: 1.06rem; }
+.review-link { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: color 0.25s ease; }
+.review-link:hover { color: var(--orange); }
 
 .review-viewport {
   margin-top: 40px;
