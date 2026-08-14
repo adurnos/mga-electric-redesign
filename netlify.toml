@@ -1,0 +1,3 @@
+[build]
+  command = 'sed -i "s|\[Insert Website URL\]|$URL|g" index.html'
+  publish = "."
